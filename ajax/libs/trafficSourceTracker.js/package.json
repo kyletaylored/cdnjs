@@ -1,0 +1,32 @@
+{
+  "name": "trafficSourceTracker",
+  "filename": "trafficSourceTracker.js",
+  "description": "A replacement for Google Analytics utmz cookie. This can be used to collect data about source of traffic",
+  "keywords": [
+    "analytics",
+    "tracker",
+    "cookie"
+  ],
+  "author": {
+    "name": "MarketLytics",
+    "url": "http://marketlytics.com"
+  },
+  "license": "BSD 3-Clause",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/marketlytics/trafficSourceTracker.js"
+  },
+  "autoupdate": {
+    "source": "git",
+    "target": "git://github.com:marketlytics/trafficSourceTracker.js.git",
+    "fileMap": [
+      {
+        "basePath": "",
+        "files": [
+          "trafficSourceTracker.js"
+        ]
+      }
+    ]
+  },
+  "homepage": "https://github.com/marketlytics/trafficSourceTracker.js"
+}
